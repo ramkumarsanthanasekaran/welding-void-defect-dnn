@@ -1,7 +1,5 @@
-# welding-void-defect-dnn
+## welding-void-defect-dnn
 Welding Void Defect Prediction — DNN
-
-# Welding Void Defect Prediction — DNN
 
 Professional project that builds a Keras Sequential DNN to predict welding void (void / void-free)
 from welding process parameters.
@@ -52,15 +50,13 @@ outputs/classification_report.txt — precision/recall/F1
 
 saved_model/welding_dnn.h5 — trained model
 
-Notes & tips
+## Notes & tips
 
 The script auto-detects where numeric rows start (so the units row and any header rows remain unchanged).
 
 If you'd like a reproducible split, pass --seed argument.
 
 To tune architecture, edit the build_model() function (currently a simple, robust DNN).
-
----
 
 ## requirements
 pandas>=1.3
