@@ -39,16 +39,11 @@ welding-void-defect-dnn/data/Welding_process_parameters.csv
 python model.py --data data/Welding_process_parameters.csv --epochs 80 --batch 32
 
 4. After run you will find:
-
- outputs/training_history.png — loss/accuracy curves
-
- outputs/confusion_matrix.png — confusion matrix
-
- outputs/roc_curve.png — ROC curve
-
- outputs/classification_report.txt — precision/recall/F1
-
- saved_model/welding_dnn.h5 — trained model
+   outputs/training_history.png — loss/accuracy curves.
+   outputs/confusion_matrix.png — confusion matrix.
+   outputs/roc_curve.png — ROC curve.
+   outputs/classification_report.txt — precision/recall/F1.
+   saved_model/welding_dnn.h5 — trained model.
 
 ## Notes & tips
 
