@@ -4,7 +4,7 @@ Welding Void Defect Prediction — DNN
 Professional project that builds a Keras Sequential DNN to predict welding void (void / void-free)
 from welding process parameters.
 
-This repo preserves your original dataset file (`data/Welding_process_parameters.csv`) exactly as provided.
+This repo preserves original dataset file (`data/Welding_process_parameters.csv`) exactly as provided.
 The preprocessing step automatically detects the first numeric row and builds a clean modeling table from it.
 
 ## Features
